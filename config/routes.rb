@@ -1,4 +1,6 @@
 Sec::Application.routes.draw do
+  resources :events
+
   # get "aaa_core/index"
 
   get "aaa_core/events"
